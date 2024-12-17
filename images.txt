@@ -1,6 +1,23 @@
-nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+# Supabase Core Services
+supabase/studio:20240729-ce42139
+kong:2.8.1
+
+# Auth and API Services
+supabase/gotrue:v2.151.0
+postgrest/postgrest:v12.2.0
+
+# Realtime and Storage Services
+supabase/realtime:v2.29.15
+supabase/storage-api:v1.0.6
+darthsim/imgproxy:v3.8.0
+
+# Metadata and Functions
+supabase/postgres-meta:v0.83.2
+supabase/edge-runtime:v1.55.0
+
+# Database
+supabase/postgres:15.1.1.78
+
+# Logging and Monitoring
+supabase/logflare:1.4.0
+timberio/vector:0.28.1-alpine
