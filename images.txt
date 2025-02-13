@@ -1,6 +1,7 @@
 # Supabase Core Services
 supabase/studio:20240729-ce42139
 kong:2.8.1
+python:3.9
 
 # Auth and API Services
 supabase/gotrue:v2.151.0
